@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>txt</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string>/\*|\[\s*$</string>
+	<key>foldingStopMarker</key>
+	<string>\*/|^\s*\]</string>
+	<key>name</key>
+	<string>BlockML</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>\[|\]|\b\w*\[</string>
+			<key>name</key>
+			<string>keyword</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>/\*</string>
+			<key>end</key>
+			<string>\*/</string>
+			<key>name</key>
+			<string>comment</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\\+.</string>
+			<key>name</key>
+			<string>escape</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(?&lt;=sec\[)</string>
+			<key>end</key>
+			<string>(?=\])</string>
+			<key>name</key>
+			<string>string</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.blockML</string>
+	<key>uuid</key>
+	<string>B08278A0-1742-4B5B-8D23-268784C45423</string>
+</dict>
+</plist>
