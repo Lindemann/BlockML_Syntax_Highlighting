@@ -16,24 +16,24 @@
 	<key>patterns</key>
 	<array>
 		<dict>
-			<key>include</key>
-			<string>#markup</string>
+			<key>match</key>
+			<string>\[|\]|\b\w*\[</string>
+			<key>name</key>
+			<string>markup</string>
 		</dict>
 		<dict>
-			<key>include</key>
-			<string>#comment</string>
+			<key>begin</key>
+			<string>/\*</string>
+			<key>end</key>
+			<string>\*/</string>
+			<key>name</key>
+			<string>comment</string>
 		</dict>
 		<dict>
-			<key>include</key>
-			<string>#escape</string>
-		</dict>
-		<dict>
-			<key>include</key>
-			<string>#link</string>
-		</dict>
-		<dict>
-			<key>include</key>
-			<string>#noSpellChecking</string>
+			<key>match</key>
+			<string>\\+.</string>
+			<key>name</key>
+			<string>escape</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -45,55 +45,12 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>^([ \t]*)(?=\S)</string>
-			<key>contentName</key>
-			<string>text</string>
+			<string>(?&lt;=id\[)</string>
 			<key>end</key>
-			<string>^(?!\1(?=\S))</string>
-			<key>patterns</key>
-			<array>
-				<dict>
-					<key>include</key>
-					<string>#markup</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#comment</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#escape</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#link</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>#noSpellChecking</string>
-				</dict>
-			</array>
-		</dict>
-	</array>
-	<key>repository</key>
-	<dict>
-		<key>comment</key>
-		<dict>
-			<key>begin</key>
-			<string>/\*</string>
-			<key>end</key>
-			<string>\*/</string>
+			<string>(?=\])</string>
 			<key>name</key>
-			<string>comment</string>
+			<string>noSpellChecking</string>
 		</dict>
-		<key>escape</key>
-		<dict>
-			<key>match</key>
-			<string>\\+.</string>
-			<key>name</key>
-			<string>escape</string>
-		</dict>
-		<key>link</key>
 		<dict>
 			<key>match</key>
 			<string>(?x)
@@ -103,23 +60,7 @@
 			<key>name</key>
 			<string>link</string>
 		</dict>
-		<key>markup</key>
-		<dict>
-			<key>match</key>
-			<string>\[|\]|\b\w*\[</string>
-			<key>name</key>
-			<string>markup</string>
-		</dict>
-		<key>noSpellChecking</key>
-		<dict>
-			<key>begin</key>
-			<string>(?&lt;=id\[)</string>
-			<key>end</key>
-			<string>(?=\])</string>
-			<key>name</key>
-			<string>noSpellChecking</string>
-		</dict>
-	</dict>
+	</array>
 	<key>scopeName</key>
 	<string>source.blockML</string>
 	<key>uuid</key>

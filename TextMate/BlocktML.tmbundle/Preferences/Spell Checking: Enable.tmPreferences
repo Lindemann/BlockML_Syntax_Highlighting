@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Spell Checking: Enable</string>
 	<key>scope</key>
-	<string>text, string</string>
+	<string>source.blockML</string>
 	<key>settings</key>
 	<dict>
 		<key>spellChecking</key>

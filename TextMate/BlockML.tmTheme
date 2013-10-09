@@ -68,14 +68,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Text</string>
-			<key>scope</key>
-			<string>text</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Link</string>
 			<key>scope</key>
 			<string>link</string>
