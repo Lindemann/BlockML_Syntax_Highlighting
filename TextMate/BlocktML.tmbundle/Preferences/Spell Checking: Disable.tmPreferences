@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Symbol List: Section</string>
+	<string>Spell Checking: Disable</string>
 	<key>scope</key>
-	<string>string</string>
+	<string>link, markup, comment, noSpellChecking</string>
 	<key>settings</key>
 	<dict>
-		<key>showInSymbolList</key>
-		<integer>1</integer>
+		<key>spellChecking</key>
+		<string>0</string>
 	</dict>
 	<key>uuid</key>
-	<string>94C20C03-AA9A-4522-82B8-48BBBB0BF982</string>
+	<string>B4B4BA09-6EE1-4433-97EF-5C6BDBBC7973</string>
 </dict>
 </plist>
