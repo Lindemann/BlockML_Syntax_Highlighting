@@ -53,9 +53,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Keyword</string>
+			<string>Markup</string>
 			<key>scope</key>
-			<string>keyword</string>
+			<string>markup</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -64,6 +64,25 @@
 				<string>bold</string>
 				<key>foreground</key>
 				<string>#6155C9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Text</string>
+			<key>scope</key>
+			<string>text</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Link</string>
+			<key>scope</key>
+			<string>link</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>underline</string>
 			</dict>
 		</dict>
 	</array>
