@@ -7,20 +7,54 @@
 		<string>txt</string>
 		<string>blockml</string>
 	</array>
-	<key>foldingStartMarker</key>
-	<string>/\*|\[\s*$</string>
-	<key>foldingStopMarker</key>
-	<string>\*/|^\s*\]</string>
 	<key>name</key>
 	<string>BlockML</string>
 	<key>patterns</key>
 	<array>
 		<dict>
-			<key>match</key>
-			<string>\[|\]|\b\w*\[</string>
-			<key>name</key>
-			<string>markup</string>
+			<key>include</key>
+			<string>#comment</string>
 		</dict>
+		<dict>
+			<key>include</key>
+			<string>#escape</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#section</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#block</string>
+		</dict>
+	</array>
+	<key>repository</key>
+	<dict>
+		<key>block</key>
+		<dict>
+			<key>begin</key>
+			<string>(\[|\b\w*\[)</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>markup</string>
+				</dict>
+			</dict>
+			<key>contentName</key>
+			<string>block</string>
+			<key>end</key>
+			<string>(\])</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>$self</string>
+				</dict>
+			</array>
+		</dict>
+		<key>comment</key>
 		<dict>
 			<key>begin</key>
 			<string>/\*</string>
@@ -29,40 +63,58 @@
 			<key>name</key>
 			<string>comment</string>
 		</dict>
+		<key>escape</key>
 		<dict>
 			<key>match</key>
-			<string>\\+.</string>
+			<string>\\.</string>
 			<key>name</key>
 			<string>escape</string>
 		</dict>
+		<key>section</key>
 		<dict>
 			<key>begin</key>
-			<string>(?&lt;=sec\[)</string>
+			<string>(sec\[)(.*)(\]\[)</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>markup</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>string</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>markup</string>
+				</dict>
+			</dict>
+			<key>contentName</key>
+			<string>section</string>
 			<key>end</key>
-			<string>(?=\])</string>
-			<key>name</key>
-			<string>string</string>
+			<string>(\])</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>markup</string>
+				</dict>
+			</dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>$self</string>
+				</dict>
+			</array>
 		</dict>
-		<dict>
-			<key>begin</key>
-			<string>(?&lt;=id\[)</string>
-			<key>end</key>
-			<string>(?=\])</string>
-			<key>name</key>
-			<string>noSpellChecking</string>
-		</dict>
-		<dict>
-			<key>match</key>
-			<string>(?x)
-					( (https?|s?ftp|ftps|file|smb|afp|nfs|(x-)?man|gopher|txmt)://|mailto:)
-					[-:@a-zA-Z0-9_.,~%+/?=&amp;#]+(?&lt;![.,?:])
-			</string>
-			<key>name</key>
-			<string>link</string>
-		</dict>
-	</array>
+	</dict>
 	<key>scopeName</key>
-	<string>text.blockML</string>
+	<string>source.blockML</string>
 	<key>uuid</key>
 	<string>B08278A0-1742-4B5B-8D23-268784C45423</string>
 </dict>
