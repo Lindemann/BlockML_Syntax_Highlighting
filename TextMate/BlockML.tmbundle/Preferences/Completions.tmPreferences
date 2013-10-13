@@ -3,15 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Spell Checking: Enable</string>
+	<string>Completions</string>
 	<key>scope</key>
-	<string>source.blockML, block, section, heading</string>
+	<string>source.blockML, block, section</string>
 	<key>settings</key>
 	<dict>
-		<key>spellChecking</key>
+		<key>completions</key>
+		<array>
+			<string>sec[][]/**/</string>
+			<string>code[no-highlight][]</string>
+		</array>
+		<key>disableDefaultCompletion</key>
 		<string>1</string>
 	</dict>
 	<key>uuid</key>
-	<string>1F40247C-DE41-48A0-8AA4-27CCB04922E5</string>
+	<string>48FBCA5A-BEB8-46FA-BB5A-EF5F1E229699</string>
 </dict>
 </plist>

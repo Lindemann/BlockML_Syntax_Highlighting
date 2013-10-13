@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Section Headings</string>
+	<string>Symbol List: Section Headings</string>
 	<key>scope</key>
-	<string>string</string>
+	<string>heading</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>

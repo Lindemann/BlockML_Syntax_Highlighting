@@ -66,8 +66,6 @@
 				<string>“</string>
 			</array>
 		</array>
-		<key>unIndentedLinePattern</key>
-		<string>^\s*$</string>
 	</dict>
 	<key>uuid</key>
 	<string>B27A0EC7-AD88-4891-863F-2A02006BC961</string>

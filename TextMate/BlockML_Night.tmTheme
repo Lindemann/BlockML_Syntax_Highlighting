@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>BlockML Day</string>
+	<string>BlockML Night</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FFFFFF</string>
+				<string>#2A2E2E</string>
 				<key>caret</key>
-				<string>#000000</string>
+				<string>#FEFEFC</string>
 				<key>foreground</key>
-				<string>#646464</string>
+				<string>#DCDCDC</string>
 				<key>invisibles</key>
-				<string>#CCCCCC</string>
+				<string>#696563</string>
 				<key>lineHighlight</key>
 				<string>#0000001A</string>
 				<key>selection</key>
-				<string>#F5FF21A3</string>
+				<string>#745BFF7D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -33,22 +33,22 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#BEBEBE</string>
+				<string>#6A7176</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String</string>
+			<string>Heading</string>
 			<key>scope</key>
-			<string>string</string>
+			<string>heading</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#F6FF12</string>
+				<string>#58DDFF29</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#727272</string>
+				<string>#44DDFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -59,11 +59,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#5E34C745</string>
+				<string>#23C77245</string>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#6155C9</string>
+				<string>#28FFB8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -74,11 +74,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#00000012</string>
+				<string>#FFFFFF12</string>
 			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>C84ABB8D-89AE-4CB1-95EC-23CCD9D5D189</string>
+	<string>01A92190-8DBE-44F0-8AD8-179E47CD134F</string>
 </dict>
 </plist>
