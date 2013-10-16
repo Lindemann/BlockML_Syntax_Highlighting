@@ -77,6 +77,17 @@
 				<string>#0000001A</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>link</string>
+			<key>scope</key>
+			<string>link</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>C84ABB8D-89AE-4CB1-95EC-23CCD9D5D189</string>
