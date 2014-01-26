@@ -10,8 +10,10 @@
 	<dict>
 		<key>completions</key>
 		<array>
-			<string>sec[][]/**/</string>
+			<string>sec[][]/*  */</string>
 			<string>code[no-highlight][]</string>
+			<string>a[][]</string>
+			<string>cap[][]</string>
 		</array>
 		<key>disableDefaultCompletion</key>
 		<string>1</string>
