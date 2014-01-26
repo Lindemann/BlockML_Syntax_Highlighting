@@ -10,17 +10,17 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#2A2E2E</string>
+				<string>#20212B</string>
 				<key>caret</key>
-				<string>#FEFEFC</string>
+				<string>#39F6F1</string>
 				<key>foreground</key>
-				<string>#DCDCDC</string>
+				<string>#B9B9CB</string>
 				<key>invisibles</key>
-				<string>#696563</string>
+				<string>#987FFF80</string>
 				<key>lineHighlight</key>
 				<string>#0000001A</string>
 				<key>selection</key>
-				<string>#745BFF7D</string>
+				<string>#4D31DA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -33,22 +33,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#6A7176</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Heading</string>
-			<key>scope</key>
-			<string>heading</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#58DDFF29</string>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#44DDFF</string>
+				<string>#51525A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -59,11 +44,26 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#23C77245</string>
+				<string>#39F6F133</string>
 				<key>fontStyle</key>
-				<string>bold</string>
+				<string></string>
 				<key>foreground</key>
-				<string>#28FFB8</string>
+				<string>#39F6F1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Heading</string>
+			<key>scope</key>
+			<string>heading</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#4D31DA4D</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#987FFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -74,22 +74,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FFFFFF12</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>link</string>
-			<key>scope</key>
-			<string>link</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
+				<string>#B9B9CB1A</string>
 			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>01A92190-8DBE-44F0-8AD8-179E47CD134F</string>
+	<string>C5DC370D-169B-494C-BC86-953F2B4BC1CC</string>
 </dict>
 </plist>

@@ -12,15 +12,15 @@
 				<key>background</key>
 				<string>#FFFFFF</string>
 				<key>caret</key>
-				<string>#000000</string>
+				<string>#4D31DA</string>
 				<key>foreground</key>
-				<string>#646464</string>
+				<string>#51525A</string>
 				<key>invisibles</key>
-				<string>#CCCCCC</string>
+				<string>#4D31DA80</string>
 				<key>lineHighlight</key>
 				<string>#0000001A</string>
 				<key>selection</key>
-				<string>#F5FF2199</string>
+				<string>#F6FF1299</string>
 			</dict>
 		</dict>
 		<dict>
@@ -33,7 +33,22 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#BEBEBE</string>
+				<string>#CBCCE4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup</string>
+			<key>scope</key>
+			<string>markup</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#4D31DA4D</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#4D31DA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -48,22 +63,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#727272</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Markup</string>
-			<key>scope</key>
-			<string>markup</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#644AC759</string>
-				<key>fontStyle</key>
-				<string>bold</string>
-				<key>foreground</key>
-				<string>#6351BB</string>
+				<string>#7A7E09</string>
 			</dict>
 		</dict>
 		<dict>
@@ -74,18 +74,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#0000001A</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>link</string>
-			<key>scope</key>
-			<string>link</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
+				<string>#51525A33</string>
 			</dict>
 		</dict>
 	</array>
