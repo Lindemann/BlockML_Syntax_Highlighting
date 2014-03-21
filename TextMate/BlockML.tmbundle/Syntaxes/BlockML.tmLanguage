@@ -7,6 +7,8 @@
 		<string>txt</string>
 		<string>blockml</string>
 	</array>
+	<key>keyEquivalent</key>
+	<string>^~B</string>
 	<key>name</key>
 	<string>BlockML</string>
 	<key>patterns</key>
@@ -126,19 +128,9 @@
 		<dict>
 			<key>begin</key>
 			<string>(c\[)</string>
-			<key>beginCaptures</key>
+			<key>captures</key>
 			<dict>
 				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>markup</string>
-				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
-					<string>block</string>
-				</dict>
-				<key>3</key>
 				<dict>
 					<key>name</key>
 					<string>markup</string>
@@ -150,14 +142,6 @@
 			<string>block</string>
 			<key>end</key>
 			<string>(\])</string>
-			<key>endCaptures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>markup</string>
-				</dict>
-			</dict>
 			<key>patterns</key>
 			<array>
 				<dict>
