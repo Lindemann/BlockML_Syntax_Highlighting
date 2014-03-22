@@ -20,14 +20,14 @@
 				<key>lineHighlight</key>
 				<string>#0000001A</string>
 				<key>selection</key>
-				<string>#F6FF1299</string>
+				<string>#F6FF12CC</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment</string>
+			<string>comment.blockml</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -40,7 +40,7 @@
 			<key>name</key>
 			<string>Markup</string>
 			<key>scope</key>
-			<string>markup</string>
+			<string>keyword.markup.blockml</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -55,7 +55,7 @@
 			<key>name</key>
 			<string>Heading</string>
 			<key>scope</key>
-			<string>heading</string>
+			<string>string.heading.blockml</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -70,7 +70,7 @@
 			<key>name</key>
 			<string>Block</string>
 			<key>scope</key>
-			<string>block</string>
+			<string>constant.other.block.blockml</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>

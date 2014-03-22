@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Spell Checking: Disable</string>
 	<key>scope</key>
-	<string>markup, comment</string>
+	<string>keyword.markup.blockml, comment.blockml</string>
 	<key>settings</key>
 	<dict>
 		<key>spellChecking</key>

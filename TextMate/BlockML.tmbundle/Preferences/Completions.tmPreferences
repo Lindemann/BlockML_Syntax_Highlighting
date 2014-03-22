@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Completions</string>
 	<key>scope</key>
-	<string>source.blockML, block, section</string>
+	<string>text.blockml, constant.other.block.blockml, section.blockml</string>
 	<key>settings</key>
 	<dict>
 		<key>completions</key>

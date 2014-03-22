@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Symbol List: Section Headings</string>
 	<key>scope</key>
-	<string>heading</string>
+	<string>string.heading.blockml</string>
 	<key>settings</key>
 	<dict>
 		<key>showInSymbolList</key>
